@@ -21,7 +21,11 @@ function StatSection() {
             <h3>10,349,405</h3>
             <p class="text-secondary">Downlads</p>
           </div>
-
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>987 TB</h3>
+            <p class="text-secondary">Published</p>
+          </div>
           <div>
             <i class="fas fa-project-diagram fa-3x"></i>
             <h3>2,343,265</h3>

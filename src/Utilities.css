@@ -73,7 +73,7 @@
 }
 
 .text-secondary {
-  color: #333;
+  color: var(--secondary-color);
 }
 
 .text-dark {
@@ -148,7 +148,7 @@
 }
 
 .grid-3 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* Margin */
@@ -231,26 +231,4 @@
 
 .p-5 {
   padding: 4rem;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(160, 156, 156);
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #7c7777;
 }
